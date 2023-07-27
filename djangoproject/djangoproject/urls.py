@@ -20,5 +20,5 @@ from djangoapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("summary", summarize_view)
+    path("summary/", summarize_view)
 ]
